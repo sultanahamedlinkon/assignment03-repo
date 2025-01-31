@@ -3,9 +3,325 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Document</title>
+ <title>Pet Shop</title>
+ <!-- tailwind css cdn  -->
+ <script src="https://cdn.tailwindcss.com"></script>
+ <!-- daisyui cdn -->
+ <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+ <script src="https://cdn.tailwindcss.com"></script>
+ <!-- google font -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+ <!-- font awesome cdn -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+ <header>
+  <!-- navbar section -->
+  <nav class=" bg-[rgb(255, 249, 244); p-4]">
+   <div class="flex justify-between mx-4 items-center space-x-2 ">
+    <div class="flex items-center gap-2">
+      <img src="./c1-assets/logo-header.png" alt="">
+      <h1 class="hidden md:block font-bold text-2xl">Browse <span class="text-yellow-400">4</span> Pets</h1>
+    </div>
+     <ul class=" item-container flex space-x-3 font-bold">
+      <li><a href="" class="hidden md:block">Find a pet</a></li>
+      <li><a href="" class="hidden md:block">Breeds</a></li>
+      <li><a href="" class="hidden md:block">Contact us</a></li>
+     </ul>
+
+   <div class="flex items-center gap-2 ">
+    <div class="hidden md:block">
+      <i class="fa-regular fa-bell"></i>
+      <i class="fa-solid fa-magnifying-glass"></i>
+     </div>
+    <!-- button -->
+    <div class="hidden md:block ">
+    <button class="btn btn-outline">Login</button>
+    <button class="btn btn-warning">Register</button>
+   </div>
+   </div>
+     <!-- dot icon -->
+     <div class="block md:hidden"><i class="fa-solid fa-bars"></i></div>
+   </div>
+ </nav>
+
+ <hr class="block sm:hidden">
+
+
+  <!-- banner section -->
  
+   <section class="bg-[url('./c1-assets/cat-big.png')] bg-cover  h-64  w-full">
+    <!-- text section -->
+   <div class="relative ">
+    <div class="absolute ">
+      <h2 class="text-4xl font-bold my-2">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h2>
+      <p class="my-2">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
+      <button class="btn btn-warning">Find a pet</button>
+    </div>
+    <!-- image -->
+
+   </section>
+  
+  <!-- Browse By Categories section -->
+  <section>
+    <h2 class=" font-bold text-2xl ml-4 mb-3">Browse By Categories</h2>
+    <!-- main card -->
+   <div class="">
+  
+     <!-- card-1 -->
+  <div class="grid mb-4 grid-cols-2 md:grid-cols-6 gap-4">
+    <div class="bg-yellow-200 h-44 w-36 rounded ml-4 text-center">
+      <div class="avatar">
+        <div class="w-24 rounded-full mt-4">
+          <img class="bg-white p-4" src="./c1-assets/dog-cartoon.png" />
+        </div>
+    
+     </div>
+     <div class="">
+      <h4 class="font-bold">Dog</h4>
+    <p class="">3 items</p>
+    </div>
+     </div>
+    <!-- card-2 -->
+     <div class="bg-yellow-200 h-44 w-36 rounded ml-4 text-center">
+      <div class="avatar">
+        <div class="w-24 rounded-full mt-4">
+          <img class="bg-white p-4" src="./c1-assets/fish-cartoon.png" />
+        </div>
+    
+     </div>
+     <div class="">
+      <h4 class="font-bold">Fish</h4>
+    <p class="">3 items</p>
+    </div>
+     </div>
+    <!-- card-3 -->
+     <div class="bg-yellow-200 h-44 w-36 rounded ml-4 text-center">
+      <div class="avatar">
+        <div class="w-24 rounded-full mt-4">
+          <img class="bg-white p-4" src="./c1-assets/cat-cartoon.png" />
+        </div>
+    
+     </div>
+     <div class="">
+      <h4 class="font-bold">Cat</h4>
+    <p class="">3 items</p>
+    </div>
+     </div>
+    <!-- card-4 -->
+     <div class="bg-yellow-200 h-44 w-36 rounded ml-4 text-center">
+      <div class="avatar">
+        <div class="w-24 rounded-full mt-4">
+          <img class="bg-white p-4" src="./c1-assets/bird-cartoon.png" />
+        </div>
+    
+     </div>
+     <div class="">
+      <h4 class="font-bold">Birds</h4>
+    <p class="">3 items</p>
+    </div>
+     </div>
+    <!-- card-5 -->
+     <div class="bg-yellow-200 h-44 w-36 rounded ml-4 text-center">
+      <div class="avatar">
+        <div class="w-24 rounded-full mt-4">
+          <img class="bg-white p-4" src="./c1-assets/mouse-cartoon.png" />
+        </div>
+    
+     </div>
+     <div class="">
+      <h4 class="font-bold">Small pet</h4>
+    <p class="">3 items</p>
+    </div>
+     </div>
+    <!-- card-6 -->
+     <div class="bg-yellow-200 h-44 w-36 rounded ml-4 text-center">
+      <div class="avatar">
+        <div class="w-24 rounded-full mt-4">
+          <img class="bg-white p-4" src="./c1-assets/rabbit-cartoon.png" />
+        </div>
+    
+     </div>
+     <div class="">
+      <h4 class="font-bold">Rabbit</h4>
+    <p class="">3 items</p>
+    </div>
+     </div>
+  </div>
+   </div>
+  </section>
+
+
+  
+
+
+
+   <!-- main card -->
+  <div class=" grid grid-cols-1 md:grid-cols-3 gap-6 mb-4">
+
+    <div class=" bg-yellow-200 p-6 rounded-lg flex flex-col justify-center">
+      <div>
+        <h4 class="text-xl font-bold mb-2">T-Shirt For Dogs</h4>
+        <p class="text-gray-600 text-sm mb-4">Discover a world of treats,toys,and <br> essentials handpicked for</p>
+        <button class="btn btn-active">Shop Now</button>
+        <div>
+          <img class="mt-4 w-32 mx-auto h-40" src="./c1-assets/cute-pet-mid.png" alt="">
+        </div>
+      </div>
+    
+    </div>
+  </div>
+     <!-- group card -->
+    
+      <div class=" grid grid-cols-3 gap-4  ">
+        <!-- card-1 -->
+         <div class="bg-[rgb(255, 255, 255);] rounded border-2 border-[rgba(17, 17, 17, 0.1) ] flex items-center justify-center gap-3">
+          <div>
+            <img class="" src="./c1-assets/dog-cartoon.png" alt="">
+          </div>
+          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
+          <p class="font-bold">Pet Bed</p>
+          <p>$39.99</p>
+          </div>
+         </div>
+        <!-- card-2 -->
+         <div class="flex items-center justify-center gap-3">
+          <div>
+            <img class="" src="./c1-assets/dog-cartoon.png" alt="">
+          </div>
+          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
+          <p class="font-bold">Pet Bed</p>
+          <p>$39.99</p>
+          </div>
+         </div>
+        <!-- card-3 -->
+         <div class="flex items-center justify-center gap-3">
+          <div>
+            <img class="" src="./c1-assets/dog-cartoon.png" alt="">
+          </div>
+          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
+          <p class="font-bold">Pet Bed</p>
+          <p>$39.99</p>
+          </div>
+         </div>
+        <!-- card-4 -->
+         <div class="flex items-center justify-center gap-3">
+          <div>
+            <img class="" src="./c1-assets/dog-cartoon.png" alt="">
+          </div>
+          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
+          <p class="font-bold">Pet Bed</p>
+          <p>$39.99</p>
+          </div>
+         </div>
+        <!-- card-5 -->
+         <div class="flex items-center justify-center gap-3">
+          <div>
+            <img class="" src="./c1-assets/dog-cartoon.png" alt="">
+          </div>
+          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
+          <p class="font-bold">Pet Bed</p>
+          <p>$39.99</p>
+          </div>
+         </div>
+        <!-- card-6 -->
+         <div class="flex items-center justify-center gap-3">
+          <div>
+            <img class="" src="./c1-assets/dog-cartoon.png" alt="">
+          </div>
+          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
+          <p class="font-bold">Pet Bed</p>
+          <p>$39.99</p>
+          </div>
+         </div>
+        <!-- card-7 -->
+         <div class="flex items-center justify-center gap-3">
+          <div>
+            <img class="" src="./c1-assets/dog-cartoon.png" alt="">
+          </div>
+          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
+          <p class="font-bold">Pet Bed</p>
+          <p>$39.99</p>
+          </div>
+         </div>
+        <!-- card-8 -->
+         <div class="flex items-center justify-center gap-3">
+          <div>
+            <img class="" src="./c1-assets/dog-cartoon.png" alt="">
+          </div>
+          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
+          <p class="font-bold">Pet Bed</p>
+          <p>$39.99</p>
+          </div>
+         </div>
+        <!-- card-9 -->
+         <div class="flex items-center justify-center gap-3">
+          <div>
+            <img class="" src="./c1-assets/dog-cartoon.png" alt="">
+          </div>
+          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
+          <p class="font-bold">Pet Bed</p>
+          <p>$39.99</p>
+          </div>
+         </div>
+       </div>
+
+ </div>
+    
+   </section>
+ </header>
+
+
+ <!-- Everyday low Price section -->
+
+
+ <!-- footer -->
+
+ <footer class="footer bg-yellow-200 text-base-content p-10">
+  <nav>
+    <div class="flex items-center gap-2">
+      <img src="./c1-assets/logo-footer.png" alt="">
+      <p class="font-bold">Browse <span class="text-yellow-400">4</span> Pets</p>
+    </div>
+  <p>
+    Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends
+  </p>
+  </nav>
+  <nav class="items-center">
+   
+    <a class="link link-hover">Find a pet</a>
+    <a class="link link-hover">Breeds</a>
+    <a class="link link-hover">Contact us</a>
+  </nav>
+  <nav>
+    <h6 class="footer-title">Follow Us</h6>
+    <div class="grid grid-flow-col gap-4">
+      <a>
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a>
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a>
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a>
+        <i class="fa-brands fa-youtube"></i>
+      </a>
+    </div>
+  </nav>
+</footer>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
