@@ -19,7 +19,7 @@
 <body>
  <header>
   <!-- navbar section -->
-  <nav class=" bg-[rgb(255, 249, 244); p-4]">
+  <nav class=" bg-[#FFF9F4] p-3 ">
    <div class="flex justify-between mx-4 items-center space-x-2 ">
     <div class="flex items-center gap-2">
       <img src="./c1-assets/logo-header.png" alt="">
@@ -52,11 +52,11 @@
 
   <!-- banner section -->
  
-   <section class="bg-[url('./c1-assets/cat-big.png')] bg-cover  h-64  w-full">
+   <section class="banner max-w-[1200px] ma-auto mt-8 md:mt-[76px] px-3 bg-[url('c1-assets/cat-big.png')] bg-no-repeat bg-right-bottom h-[50vh] md:h-[70vh] md:bg-cover">
     <!-- text section -->
-   <div class="relative ">
-    <div class="absolute ">
-      <h2 class="text-4xl font-bold my-2">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h2>
+   
+    <div class="space-y-4 w-[90%] md:w-[50%] z-10 relative ">
+      <h2 class="text-[30px] md:tex-[56px] font-bold">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h2>
       <p class="my-2">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
       <button class="btn btn-warning">Find a pet</button>
     </div>
@@ -65,7 +65,7 @@
    </section>
   
   <!-- Browse By Categories section -->
-  <section>
+  <section class=" pt-10 pb-10">
     <h2 class=" font-bold text-2xl ml-4 mb-3">Browse By Categories</h2>
     <!-- main card -->
    <div class="">
@@ -164,7 +164,7 @@
   <div class="w-96  gap-6 mb-4">
 
     <div class=" bg-yellow-200 p-6 rounded-lg flex flex-col justify-center">
-      <div>
+      <div class="w-96">
         <h4 class="text-xl font-bold mb-2">T-Shirt For Dogs</h4>
         <p class="text-gray-600 text-sm mb-4">Discover a world of treats,toys,and <br> essentials handpicked for</p>
         <button class="btn btn-active">Shop Now</button>
@@ -177,11 +177,13 @@
   </div>
      <!-- group card -->
     
-      <div class=" grid grid-cols-3 gap-4   ">
+      <div class="hidden md:grid grid grid-cols-2 md:grid-cols-3  gap-4 ">
         <!-- card-1 -->
          <div class="h w-56 bg-[rgb(255, 255, 255);] rounded border-2 border-[rgba(17, 17, 17, 0.1) ] flex items-center justify-center gap-3">
-          <div>
-            <img class="" src="./c1-assets/dog-cartoon.png" alt="">
+          <div class="avatar">
+            <div class="w-20 p-2 bg-pink-200 rounded">
+              <img src="./c1-assets/dog-cartoon.png" />
+            </div>
           </div>
           <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
           <p class="font-bold">Pet Bed</p>
@@ -190,8 +192,10 @@
          </div>
         <!-- card-2 -->
          <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
-          <div>
-            <img class="" src="./c1-assets/fish-cartoon.png" alt="">
+          <div class="avatar">
+            <div class="w-20 p-2 bg-pink-200 rounded">
+              <img src="./c1-assets/fish-cartoon.png" />
+            </div>
           </div>
           <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
           <p class="font-bold">Pet Bed</p>
@@ -200,8 +204,10 @@
          </div>
         <!-- card-3 -->
          <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
-          <div>
-            <img class="" src="./c1-assets/bird-cartoon.png" alt="">
+          <div class="avatar">
+            <div class="w-20 p-2 bg-pink-200 rounded">
+              <img src="./c1-assets/bird-cartoon.png" />
+            </div>
           </div>
           <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
           <p class="font-bold">Pet Bed</p>
@@ -210,8 +216,10 @@
          </div>
         <!-- card-4 -->
          <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
-          <div>
-            <img class="" src="./c1-assets/rabbit-cartoon.png" alt="">
+          <div class="avatar">
+            <div class="w-20 p-2 bg-pink-200 rounded">
+              <img src="./c1-assets/rabbit-cartoon.png" />
+            </div>
           </div>
           <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
           <p class="font-bold">Pet Bed</p>
@@ -220,8 +228,10 @@
          </div>
         <!-- card-5 -->
          <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
-          <div>
-            <img class="" src="./c1-assets/bird-cartoon.png" alt="">
+          <div class="avatar">
+            <div class="w-20 p-2 bg-pink-200 rounded">
+              <img src="./c1-assets/bird-cartoon.png" />
+            </div>
           </div>
           <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
           <p class="font-bold">Pet Bed</p>
@@ -230,8 +240,10 @@
          </div>
         <!-- card-6 -->
          <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
-          <div>
-            <img class="" src="./c1-assets/pet-couch.png" alt="">
+          <div class="avatar">
+            <div class="w-20 p-2 bg-pink-200 rounded">
+              <img src="./c1-assets/pet-couch.png" />
+            </div>
           </div>
           <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
           <p class="font-bold">Pet Bed</p>
@@ -239,103 +251,11 @@
           </div>
          </div>
         <!-- card-7 -->
-         <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
-          <div>
-            <img class="" src="./c1-assets/fish-cartoon.png" alt="">
-          </div>
-          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
-          <p class="font-bold">Pet Bed</p>
-          <p>$39.99</p>
-          </div>
-         </div>
-        <!-- card-8 -->
-         <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
-          <div>
-            <img class="" src="./c1-assets/pet-couch.png" alt="">
-          </div>
-          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
-          <p class="font-bold">Pet Bed</p>
-          <p>$39.99</p>
-          </div>
-         </div>
-        <!-- card-9 -->
-         <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
-          <div>
-            <img class="" src="./c1-assets/rabbit-cartoon.png" alt="">
-          </div>
-          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
-          <p class="font-bold">Pet Bed</p>
-          <p>$39.99</p>
-          </div>
-         </div>
-       </div>
-
-       <!-- mobile card -->
-        <div class="md:hidden grid grid-cols-2 gap-4 ">
-            <!-- card-1 -->
-         <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
-          <div>
-            <img class="" src="./c1-assets/pet-couch.png" alt="">
-          </div>
-          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
-          <p class="font-bold">Pet Bed</p>
-          <p>$39.99</p>
-          </div>
-         </div>
-          <!-- card-2 -->
-         <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
-          <div>
-            <img class="" src="./c1-assets/pet-couch.png" alt="">
-          </div>
-          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
-          <p class="font-bold">Pet Bed</p>
-          <p>$39.99</p>
-          </div>
-         </div>
-         <!-- card-3 -->
-         <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
-          <div>
-            <img class="" src="./c1-assets/pet-couch.png" alt="">
-          </div>
-          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
-          <p class="font-bold">Pet Bed</p>
-          <p>$39.99</p>
-          </div>
-         </div>
-         <!-- card-4 -->
-         <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
-          <div>
-            <img class="" src="./c1-assets/pet-couch.png" alt="">
-          </div>
-          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
-          <p class="font-bold">Pet Bed</p>
-          <p>$39.99</p>
-          </div>
-         </div>
-         <!-- card-5 -->
-         <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
-          <div>
-            <img class="" src="./c1-assets/pet-couch.png" alt="">
-          </div>
-          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
-          <p class="font-bold">Pet Bed</p>
-          <p>$39.99</p>
-          </div>
-         </div>
-         <!-- card-6 -->
-         <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
-          <div>
-            <img class="" src="./c1-assets/pet-couch.png" alt="">
-          </div>
-          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
-          <p class="font-bold">Pet Bed</p>
-          <p>$39.99</p>
-          </div>
-         </div>
-         <!-- card-7 -->
-         <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
-          <div>
-            <img class="" src="./c1-assets/pet-couch.png" alt="">
+        <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
+          <div class="avatar">
+            <div class="w-20 p-2 bg-pink-200 rounded">
+              <img src="./c1-assets/fish-cartoon.png" />
+            </div>
           </div>
           <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
           <p class="font-bold">Pet Bed</p>
@@ -344,6 +264,35 @@
          </div>
          <!-- card-8 -->
          <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
+          <div class="avatar">
+            <div class="w-20 p-2 bg-pink-200 rounded">
+              <img src="./c1-assets/pet-couch.png" />
+            </div>
+          </div>
+          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
+          <p class="font-bold">Pet Bed</p>
+          <p>$39.99</p>
+          </div>
+         </div>
+
+         <!-- card-9 -->
+         <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
+          <div class="avatar">
+            <div class="w-20 p-2 bg-pink-200 rounded">
+              <img src="./c1-assets/rabbit-cartoon.png" />
+            </div>
+          </div>
+          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
+          <p class="font-bold">Pet Bed</p>
+          <p>$39.99</p>
+          </div>
+         </div>
+
+      <!-- mobile -->
+
+      <div class="grid grid-cols-2 md:hidden gap-4">
+        
+        <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
           <div>
             <img class="" src="./c1-assets/pet-couch.png" alt="">
           </div>
@@ -352,15 +301,81 @@
           <p>$39.99</p>
           </div>
          </div>
-        </div>
+        <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
+          <div>
+            <img class="" src="./c1-assets/pet-couch.png" alt="">
+          </div>
+          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
+          <p class="font-bold">Pet Bed</p>
+          <p>$39.99</p>
+          </div>
+         </div>
+        <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
+          <div>
+            <img class="" src="./c1-assets/pet-couch.png" alt="">
+          </div>
+          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
+          <p class="font-bold">Pet Bed</p>
+          <p>$39.99</p>
+          </div>
+         </div>
+        <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
+          <div>
+            <img class="" src="./c1-assets/pet-couch.png" alt="">
+          </div>
+          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
+          <p class="font-bold">Pet Bed</p>
+          <p>$39.99</p>
+          </div>
+         </div>
+        <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
+          <div>
+            <img class="" src="./c1-assets/pet-couch.png" alt="">
+          </div>
+          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
+          <p class="font-bold">Pet Bed</p>
+          <p>$39.99</p>
+          </div>
+         </div>
+        <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
+          <div>
+            <img class="" src="./c1-assets/pet-couch.png" alt="">
+          </div>
+          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
+          <p class="font-bold">Pet Bed</p>
+          <p>$39.99</p>
+          </div>
+         </div>
+        <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
+          <div>
+            <img class="" src="./c1-assets/pet-couch.png" alt="">
+          </div>
+          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
+          <p class="font-bold">Pet Bed</p>
+          <p>$39.99</p>
+          </div>
+         </div>
+        <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
+          <div>
+            <img class="" src="./c1-assets/pet-couch.png" alt="">
+          </div>
+          <div class="mt-2 mb-2"><i class="fa-solid fa-star text-yellow-400"></i> 4.5
+          <p class="font-bold">Pet Bed</p>
+          <p>$39.99</p>
+          </div>
+         </div>
+      </div>
 
  </div>
     
    </section>
+
+   <!-- Everyday low Price section -->
+    
  </header>
 
 
- <!-- Everyday low Price section -->
+ 
 
 
  <!-- footer -->
