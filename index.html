@@ -52,19 +52,25 @@
 
   <!-- banner section -->
  
-   <section class="banner max-w-[1200px] ma-auto mt-8 md:mt-[76px] px-3 bg-[url('c1-assets/cat-big.png')] bg-no-repeat bg-right-bottom h-[50vh] md:h-[70vh] md:bg-cover">
+   <section class="banner max-w-[1320px] ma-auto mt-8 md:mt-[76px] px-3 bg-[url('c1-assets/cat-big.png')] bg-no-repeat bg-right-bottom h-[50vh] md:h-[70vh] md:bg-cover">
     <!-- text section -->
+
+       <!-- annimation -->
+    <div class=" mt-4 w-20 h-20 bg-blue-500 rounded-full flex items-center justify-center text-white text-lg font-bold animate-spin">
+      🔄
+  </div>
    
-    <div class="space-y-4 w-[90%] md:w-[50%] z-10 relative ">
+    <div class="space-y-4 w-[90%] md:w-[50%] z-10 relative ml-5 ">
       <h2 class="text-[30px] md:tex-[56px] font-bold">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h2>
       <p class="my-2">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
       <button class="btn btn-warning">Find a pet</button>
     </div>
-    <!-- image -->
+     
+  
 
    </section>
   
-  <!-- Browse By Categories section -->
+  <!-- Browse By Categories section main -->
   <section class=" pt-10 pb-10">
     <h2 class=" font-bold text-2xl ml-4 mb-3">Browse By Categories</h2>
     <!-- main card -->
@@ -154,7 +160,97 @@
   </section>
 
 
+  <!-- Browse By Categories section Bonus -->
+  <section class=" pt-10 pb-10">
+    <h2 class=" font-bold text-2xl ml-4 mb-3">Kind's OF Animals</h2>
+    <!-- main card -->
+   <div class="">
   
+     <!-- card-1 -->
+  <div class="grid mb-4 grid-cols-2 md:grid-cols-6 gap-4">
+    <div class="bg-yellow-200 h-44 w-36 rounded ml-4 text-center">
+      <div class="avatar">
+        <div class="w-24 rounded-full mt-4">
+          <img class="bg-white p-4" src="./c1-assets/dog-head.png" />
+        </div>
+    
+     </div>
+     <div class="">
+      <h4 class="font-bold">Dog</h4>
+    <p class="">3 items</p>
+    </div>
+     </div>
+    <!-- card-2 -->
+     <div class="bg-yellow-200 h-44 w-36 rounded ml-4 text-center">
+      <div class="avatar">
+        <div class="w-24 rounded-full mt-4">
+          <img class="bg-white p-4" src="./c1-assets/tiger.png" />
+        </div>
+    
+     </div>
+     <div class="">
+      <h4 class="font-bold">Tiger</h4>
+    <p class="">3 items</p>
+    </div>
+     </div>
+    <!-- card-3 -->
+     <div class="bg-yellow-200 h-44 w-36 rounded ml-4 text-center">
+      <div class="avatar">
+        <div class="w-24 rounded-full mt-4">
+          <img class="bg-white p-4" src="./c1-assets/cat-op.png" />
+        </div>
+    
+     </div>
+     <div class="">
+      <h4 class="font-bold">Cat</h4>
+    <p class="">3 items</p>
+    </div>
+     </div>
+    <!-- card-4 -->
+     <div class="bg-yellow-200 h-44 w-36 rounded ml-4 text-center">
+      <div class="avatar">
+        <div class="w-24 rounded-full mt-4">
+          <img class="bg-white p-4" src="./c1-assets/cat-op2.png" />
+        </div>
+    
+     </div>
+     <div class="">
+      <h4 class="font-bold">Cute</h4>
+    <p class="">3 items</p>
+    </div>
+     </div>
+    <!-- card-5 -->
+     <div class="bg-yellow-200 h-44 w-36 rounded ml-4 text-center">
+      <div class="avatar">
+        <div class="w-24 rounded-full mt-4">
+          <img class="bg-white p-4" src="./c1-assets/tiger-op.png" />
+        </div>
+    
+     </div>
+     <div class="">
+      <h4 class="font-bold">tiger</h4>
+    <p class="">3 items</p>
+    </div>
+     </div>
+    <!-- card-6 -->
+     <div class="bg-yellow-200 h-44 w-36 rounded ml-4 text-center">
+      <div class="avatar">
+        <div class="w-24 rounded-full mt-4">
+          <img class="bg-white p-4" src="./c1-assets/cat-op2.png" />
+        </div>
+    
+     </div>
+     <div class="">
+      <h4 class="font-bold">Cute</h4>
+    <p class="">3 items</p>
+    </div>
+     </div>
+  </div>
+   </div>
+  </section>
+
+
+  <!-- pet section -->
 
   <section class="mt-10">
     <h3 class="font-bold text-3xl mb-3 ml-5">Trending Pet Products</h3>
@@ -175,6 +271,7 @@
     
     </div>
   </div>
+
      <!-- group card -->
     
       <div class="hidden md:grid grid grid-cols-2 md:grid-cols-3  gap-4 ">
@@ -290,7 +387,7 @@
 
       <!-- mobile -->
 
-      <div class="grid grid-cols-2 md:hidden gap-4">
+      <div class="block grid grid-cols-2 md:hidden gap-4">
         
         <div class="flex items-center justify-center gap-3 border-2 border-[rgba(17, 17, 17, 0.1) ]">
           <div>
@@ -371,7 +468,46 @@
    </section>
 
    <!-- Everyday low Price section -->
-    
+<div class=" gap-4 ">
+  <h2 class="ml-4 font-bold text-3xl mb-6 ">Everyday low Price</h2>
+ <div class=" grid md:grid-cols-[60%_40%] px-5 gap-3 ">
+
+    <div class=" hero rounded-xl md:mb-[220px]  bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ...">
+      <div class="hero-content flex-col lg:flex-row">
+     
+        <div>
+          <h1 class="text-xl font-bold hidden md:block">Under Price</h1>
+          <h3 class="py-3 text-3xl font-bold">Pet Grooming Mitt</h3>
+          <p class="text-white md:block hidden">(Easy Hair Removal)</p>
+          <p class="font-bold text-3xl hidden md:block">$7.99</p>
+          <p class="font-bold text-3xl text-white block md:hidden">$7.99</p>
+        </div>
+        <img
+        src="./c1-assets/cute-dog-mid.png"
+        class="w-72" />
+      </div>
+    </div>
+    <!-- card-2 -->
+     <div class="  hero rounded-xl mb-[220px]  bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ...">
+      <div class="">
+     
+        <div>
+          
+          <h3 class="py-3 text-3xl font-bold">T-Shirt for Dogs</h3>
+          
+          <p class="font-bold text-3xl text-yellow-400">$7.99</p>
+          
+        </div>
+        <img
+        src="./c1-assets/cute-pet-mid.png"
+        class="" />
+      </div>
+    </div>
+  
+  </div>
+
+</div>
+
  </header>
 
 
@@ -380,7 +516,27 @@
 
  <!-- footer -->
 
- <footer class="footer bg-yellow-200 text-base-content p-10">
+ <footer class="relative pt-[320px] footer bg-yellow-200 text-base-content p-10">
+
+  <section class="mt-10 absolute -top-60 left-60 grid grid-cols-1">
+    <div class="w-[90%] hero bg-base-200   mx-auto">
+      <div class="hero-content flex-col lg:flex-row">
+        <img
+          src="./c1-assets/cute-pet-mid.png"
+          class="" />
+        <div>
+          <h1 class="text-4xl font-bold">Get Pawsome News!</h1>
+          <p class="py-6">
+            Exclusive training tips, ticks, product deals and more.
+          </p>
+          <input type="text" placeholder="Enter email...." class="input input-bordered w-full max-w-xs mb-2" /> <br>
+          <button class="btn bg-yellow-500">Subscribe</button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
   <nav>
     <div class="flex items-center gap-2">
       <img src="./c1-assets/logo-footer.png" alt="">
